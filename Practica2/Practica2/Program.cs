@@ -7,6 +7,8 @@ namespace Practica2
 	{
 		public static void Main(string[] args)
 		{
+			
+			
 			Console.WriteLine("Dame la cantidad del Producto 1:");
 			int cantiproducto1 = int.Parse( Console.ReadLine());
 			Console.WriteLine("Dame la Descripcion 1:");
@@ -33,6 +35,8 @@ namespace Practica2
 			double resultado3 = cantiproducto3 * precioUnita3;
 			
 			
+			
+			
 			Console.WriteLine(" " +cantiproducto1+ "  " + descripcion1 + "  " + resultado1);
 			Console.WriteLine(" " +cantiproducto2+ "  " + descripcion2 + "  " + resultado2);
 			Console.WriteLine(" " +cantiproducto3+ "  " + descripcion3 + "  " + resultado3);
@@ -41,6 +45,8 @@ namespace Practica2
 			double subtotal = resultado1+resultado2+resultado3;
 			double iva = 0.16 * subtotal;
 			double total = subtotal + iva;
+			
+			
 			
 			Console.WriteLine(" Subtotal =" +subtotal);
 			Console.WriteLine(" Iva =" + iva);
